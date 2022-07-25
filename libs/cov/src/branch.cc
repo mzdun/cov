@@ -23,6 +23,7 @@ namespace cov {
 	};
 
 	struct branch_impl : detail::link<branch_policy> {
+		// trigger cpplint
 		using detail::link<branch_policy>::link;
 	};
 
